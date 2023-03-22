@@ -1,0 +1,194 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Step 1 */
+.bg {
+   background-image: url("bg.jpg");
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 300px;
+   height: 250px;
+   z-index: 0;
+   opacity: 0;
+ }
+ .txt1 {
+   background-image: url("txt1.png");
+   position: absolute;
+   left: 13px;
+   top: 29px;
+   width: 175px;
+   height: 33px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .txt2 {
+   background-image: url("txt2.png");
+   position: absolute;
+   left: 199px;
+   top: 29px;
+   width: 89px;
+   height: 33px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .elem1 {
+   background-image: url("elem1.png");
+   position: absolute;
+   left: 48px;
+   top: 53px;
+   width: 321px;
+   height: 265px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .elem2 {
+   background-image: url("elem2.png");
+   position: absolute;
+   left: 28px;
+   top: 58px;
+   width: 233px;
+   height: 250px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .elem3 {
+   background-image: url("elem3.png");
+   position: absolute;
+   left: 24px;
+   top: 52px;
+   width: 243px;
+   height: 259px;
+   z-index: 2;
+   opacity: 0;
+ }
+   
+ /* Step 2 */
+ .txt3 {
+   background-image: url("txt3.png");
+   position: absolute;
+   left: 34px;
+   top: 40px;
+   width: 226px;
+   height: 43px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt4 {
+   background-image: url("txt4.png");
+   position: absolute;
+   left: 35px;
+   top: 78px;
+   width: 225px;
+   height: 52px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .confete {
+   background-image: url("confete.png");
+   position: absolute;
+   left: 9px;
+   top: 0px;
+   width: 282px;
+   height: 155px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .logo {
+   background-image: url("logo.png");
+   position: absolute;
+   left: 57px;
+   top: 176px;
+   width: 186px;
+   height: 51px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ /* Step 3 */
+ .txt5 {
+   background-image: url("txt5.png");
+   position: absolute;
+   left: 78px;
+   top: 82px;
+   width: 92px;
+   height: 18px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt6 {
+   background-image: url("txt6.png");
+   position: absolute;
+   left: 175px;
+   top: 82px;
+   width: 46px;
+   height: 18px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt7 {
+   background-image: url("txt7.png");
+   position: absolute;
+   left: 67px;
+   top: 102px;
+   width: 165px;
+   height: 28px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt8 {
+   background-image: url("txt8.png");
+   position: absolute;
+   left: 68px;
+   top: 126px;
+   width: 164px;
+   height: 35px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .confete2 {
+   background-image: url("confete2.png");
+   position: absolute;
+   left: 33px;
+   top: 50px;
+   width: 234px;
+   height: 129px;
+   z-index: 1;
+   opacity: 0;
+ }
+ 
+ .logo2 {
+   background-image: url("logo2.png");
+   position: absolute;
+   left: 130px;
+   top: 9px;
+   width: 39px;
+   height: 39px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .btn {
+   background-image: url("btn.png");
+   position: absolute;
+   left: 70px;
+   top: 197px;
+   width: 159px;
+   height: 37px;
+   z-index: 1;
+   opacity: 0;
+ }
+ 

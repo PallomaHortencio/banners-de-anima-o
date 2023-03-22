@@ -1,0 +1,192 @@
+@charset "8-utf";
+
+body {
+   margin: 0;
+}
+
+.banner {
+   background-image: url("bg.jpg");
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 300px;
+   height: 250px;
+   z-index: 0;
+ }
+ 
+ /* Step 1 */
+ .txt1 {
+   background-image: url("txt1.png");
+   position: absolute;
+   left: 46px;
+   top: 30px;
+   width: 209px;
+   height: 31px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ .txt2 {
+   background-image: url("txt2.png");
+   position: absolute;
+   left: 35px;
+   top: 69px;
+   width: 115px;
+   height: 31px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ .txt3 {
+   background-image: url("txt3.png");
+   position: absolute;
+   left: 164px;
+   top: 69px;
+   width: 100px;
+   height: 31px;
+   z-index: 1;
+   opacity: 0;
+ }
+ 
+ .carinha1 {
+   background-image: url("carinha1.png");
+   position: absolute;
+   left: 73px;
+   top: 94px;
+   width: 150px;
+   height: 156px;
+   z-index: 1;
+   
+ }
+
+  .carinha2 {
+   background-image: url("carinha2.png");
+   position: absolute;
+   left: 70px;
+   top: 89px;
+   width: 162px;
+   height: 160px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ .carinha3 {
+   background-image: url("carinha3.png");
+   position: absolute;
+   left: 68px;
+   top: 85px;
+   width: 162px;
+   height: 170px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ /* Step 2 */
+ .elem1 {
+   background-image: url("elem1.png");
+   position: absolute;
+   left: 30px;
+   top: 64px;
+   width: 254px;
+   height: 59px;
+   z-index: 2;
+   opacity: 0
+ }
+
+ .elem2 {
+   background-image: url("elem2.png");
+   position: absolute;
+   left: 11px;
+   top: 36px;
+   width: 280px;
+   height: 104px;
+   z-index: 2;
+   opacity: 0
+ }
+
+ .logo {
+   background-image: url("logo.png");
+   position: absolute;
+   left: 57px;
+   top: 166px;
+   width: 186px;
+   height: 51px;
+   z-index: 2;
+   opacity: 0
+ }
+
+ /* Step 3 */
+ .elem3 {
+   background-image: url("elem3.png");
+   position: absolute;
+   left: 22px;
+   top: 12px;
+   width: 256px;
+   height: 95px;
+   z-index:3;
+   opacity: 0
+ }
+ 
+ .txt4 {
+   background-image: url("txt4.png");
+   position: absolute;
+   left: 42px;
+   top: 20px;
+   width: 227px;
+   height: 20px;
+   z-index: 3;
+   opacity: 0
+ }
+ .txt5 {
+   background-image: url("txt5.png");
+   position: absolute;
+   left: 40px;
+   top: 38px;
+   width: 229px;
+   height: 53px;
+   z-index: 3;
+   opacity: 0
+ }
+  
+ .txt6 {
+   background-image: url("txt6.png");
+   position: absolute;
+   left: 87px;
+   top: 123px;
+   width: 52px;
+   height: 20px;
+   z-index: 3;
+   opacity: 0
+ }
+ .txt7 {
+   background-image: url("txt7.png");
+   position: absolute;
+   left: 143px;
+   top: 123px;
+   width: 68px;
+   height: 20px;
+   z-index: 3;
+   opacity: 0
+ }
+ .txt8 {
+   background-image: url("txt8.png");
+   position: absolute;
+   left: 72px;
+   top: 148px;
+   width: 154px;
+   height: 21px;
+   z-index: 3;
+   opacity: 0
+ }
+ .btn {
+   background-image: url("btn.png");
+   position: absolute;
+   left: 70px;
+   top: 197px;
+   width: 159px;
+   height: 37px;
+   z-index: 3;
+   opacity: 0
+ }
+    
+ 

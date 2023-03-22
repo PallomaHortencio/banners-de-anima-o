@@ -1,0 +1,232 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 600px;
+  cursor: pointer;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* Step 1 */
+.bg {
+   background-image: url("bg.jpg");
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 300px;
+   height: 600px;
+   z-index: 0;
+ }
+ .txt1 {
+   background-image: url("txt1.png");
+   position: absolute;
+   left: 32px;
+   top: 114px;
+   width: 237px;
+   height: 42px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .txt2 {
+   background-image: url("txt2.png");
+   position: absolute;
+   left: 91px;
+   top: 163px;
+   width: 119px;
+   height: 42px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .elem1 {
+   background-image: url("elem1.png");
+   position: absolute;
+   left: -34px;
+   top: 260px;
+   width: 365px;
+   height: 302px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .elem2 {
+   background-image: url("elem2.png");
+   position: absolute;
+   left: 9px;
+   top: 265px;
+   width: 265px;
+   height: 280px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .elem3 {
+   background-image: url("elem3.png");
+   position: absolute;
+   left: 3px;
+   top: 258px;
+   width: 277px;
+   height: 280px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .sombra {
+   background-image: url("sombra.png");
+   position: absolute;
+   left: 95px;
+   top: 547px;
+   width: 109px;
+   height: 17px;
+   z-index: 1;
+   opacity: 0;
+ }
+
+ /* Step 2 */
+ .txt3 {
+   background-image: url("txt3.png");
+   position: absolute;
+   left: 30px;
+   top: 119px;
+   width: 236px;
+   height: 44px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt4 {
+   background-image: url("txt4.png");
+   position: absolute;
+   left: 31px;
+   top: 155px;
+   width: 235px;
+   height: 52px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .confete {
+   background-image: url("confete.png");
+   position: absolute;
+   left: 0px;
+   top: 78px;
+   width: 300px;
+   height: 165px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 49px;
+  top: 342px;
+  width: 203px;
+  height: 104px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Step 3 */
+.txt5 {
+   background-image: url("txt5.png");
+   position: absolute;
+   left: 58px;
+   top: 159px;
+   width: 116px;
+   height: 23px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt6 {
+   background-image: url("txt6.png");
+   position: absolute;
+   left: 182px;
+   top: 159px;
+   width: 58px;
+   height: 23px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt7 {
+   background-image: url("txt7.png");
+   position: absolute;
+   left: 44px;
+   top: 184px;
+   width: 210px;
+   height: 39px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt8 {
+   background-image: url("txt8.png");
+   position: absolute;
+   left: 45px;
+   top: 217px;
+   width: 209px;
+   height: 43px;
+   z-index: 2;
+   opacity: 0;
+ }
+ .txt9 {
+   background-image: url("txt9.png");
+   position: absolute;
+   left: 56px;
+   top: 341px;
+   width: 77px;
+   height: 27px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .txt10 {
+   background-image: url("txt10.png");
+   position: absolute;
+   left: 141px;
+   top: 341px;
+   width: 100px;
+   height: 28px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .txt11 {
+   background-image: url("txt11.png");
+   position: absolute;
+   left: 34px;
+   top: 379px;
+   width: 230px;
+   height: 28px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .confete2 {
+   background-image: url("confete2.png");
+   position: absolute;
+   left: 1px;
+   top: 125px;
+   width: 300px;
+   height: 165px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .logo2 {
+   background-image: url("logo2.png");
+   position: absolute;
+   left: 124px;
+   top: 26px;
+   width: 51px;
+   height: 51px;
+   z-index: 1;
+   opacity: 0;
+ }
+ .btn {
+   background-image: url("btn.png");
+   position: absolute;
+   left: 70px;
+   top: 438px;
+   width: 159px;
+   height: 45px;
+   z-index: 1;
+   opacity: 0;
+ }
+ 
