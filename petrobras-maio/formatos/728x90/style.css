@@ -1,0 +1,108 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 728px;
+  height: 90px;
+  cursor: pointer;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #b4b4b4;
+}
+
+.bg {
+  background-image: url("bg.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 728px;
+  height: 90px;
+  z-index: 0;
+  opacity: 0;
+}
+
+.bg1 {
+  background-image: url("bg1.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 728px;
+  height: 90px;
+  z-index: 0;
+  opacity: 0;
+}
+
+.bg2 {
+  background-image: url("bg2.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 728px;
+  height: 90px;
+  z-index: 0;
+  opacity: 0;
+}
+
+/* Step 1 */
+.txt1 {
+  background-image: url("txt1.png");
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  width: 565px;
+  height: 38px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.elem1 {
+  background-image: url("elem1.png");
+  position: absolute;
+  left: 40px;
+  top: 62px;
+  width: 27px;
+  height: 3px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Step 2 */
+.txt2 {
+  background-image: url("txt2.png");
+  position: absolute;
+  left: 40px;
+  top: 25px;
+  width: 230px;
+  height: 35px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.elem2 {
+  background-image: url("elem2.png");
+  position: absolute;
+  left: 40px;
+  top: 62px;
+  width: 27px;
+  height: 3px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Step 3 */
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 260px;
+  top: 25px;
+  width: 188px;
+  height: 37px;
+  z-index: 1;
+  opacity: 0;
+}

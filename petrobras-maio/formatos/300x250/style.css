@@ -1,0 +1,154 @@
+@charset "8-utf";
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 250px;
+  cursor: pointer;
+  z-index: 0;
+  overflow: hidden;
+  border: 1px solid #b4b4b4;
+}
+
+.bg {
+  background-image: url("bg.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 250px;
+  z-index: 0;
+}
+
+/* Step 1 */
+
+.bg1 {
+  background-image: url("bg1.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 250px;
+  z-index: 0;
+  opacity: 0;
+}
+
+.bg2 {
+  background-image: url("bg2.jpg");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 300px;
+  height: 250px;
+  z-index: 0;
+  opacity: 0;
+}
+
+.txt1 {
+  background-image: url("txt1.png");
+  position: absolute;
+  left: 29px;
+  top: 31px;
+  width: 240px;
+  height: 33px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt2 {
+  background-image: url("txt2.png");
+  position: absolute;
+  left: 28px;
+  top: 71px;
+  width: 182px;
+  height: 33px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt3 {
+  background-image: url("txt3.png");
+  position: absolute;
+  left: 28px;
+  top: 110px;
+  width: 194px;
+  height: 26px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt4 {
+  background-image: url("txt4.png");
+  position: absolute;
+  left: 29px;
+  top: 150px;
+  width: 106px;
+  height: 26px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.elem1 {
+  background-image: url("elem1.png");
+  position: absolute;
+  left: 27px;
+  top: 203px;
+  width: 34px;
+  height: 4px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Step 2 */
+
+
+.txt5 {
+  background-image: url("txt5.png");
+  position: absolute;
+  left: 28px;
+  top: 73px;
+  width: 160px;
+  height: 33px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.txt6 {
+  background-image: url("txt6.png");
+  position: absolute;
+  left: 28px;
+  top: 113px;
+  width: 148px;
+  height: 26px;
+  z-index: 1;
+  opacity: 0;
+}
+
+.elem2 {
+  background-image: url("elem2.png");
+  position: absolute;
+  left: 27px;
+  top: 166px;
+  width: 34px;
+  height: 4px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Step 3 */
+.logo {
+  background-image: url("logo.png");
+  position: absolute;
+  left: 38px;
+  top: 98px;
+  width: 225px;
+  height: 44px;
+  z-index: 1;
+  opacity: 0;
+}
